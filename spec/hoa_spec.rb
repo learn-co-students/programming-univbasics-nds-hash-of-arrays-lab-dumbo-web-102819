@@ -5,6 +5,7 @@ describe 'The HoA can be updated by' do
     it 'adds Snarf to :third_earthers' do
       expect(add_character(:chipmunks, "Dave")).to eq(["Alvin", "Simon", "Theodore", "Dave"])
     end
+  end
 
     it 'adds Snarf to :third_earthers' do
       expect(add_character(:third_earthers, "Snarf")).to eq(["Lion-O", "Cheetara", "Mumm-Ra (the ever-living)", "Snarf"])
